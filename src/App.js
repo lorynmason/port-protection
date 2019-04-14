@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styles/main.scss';
 import lodgeLogo from "./styles/images/image.png"
 
 class App extends Component {
