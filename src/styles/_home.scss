@@ -1,10 +1,13 @@
 .App {
  @include flexin;
+ height: 100vh;
+ overflow-y: hidden;
 }
 h1 {
-  color: rgba(250, 214, 57, 0.788);
+  color: rgba(250, 214, 57, 1);
   font-family: $accentFont;
-  font-size: 4rem;
+  font-size: 5rem;
+  margin-top: 10px;
 }
 
 #lodge-logo {
