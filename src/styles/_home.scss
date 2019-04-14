@@ -12,6 +12,19 @@ h1 {
   position: absolute;
   opacity: .7;
   height: 500px;
+  animation: fade-in 6s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .7;
+  }
 }
 
 video {
