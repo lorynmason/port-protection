@@ -1,18 +1,21 @@
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include flexin;
 }
 h1 {
-  position: absolute;
-  color: white;
+  color: rgba(250, 214, 57, 0.788);
+  font-family: $accentFont;
+  font-size: 4rem;
 }
 
 #lodge-logo {
   position: absolute;
+  @include flexin;  
+  flex-direction: column;
   opacity: .7;
-  height: 500px;
   animation: fade-in 6s;
+  img {
+    height: 500px;
+  }
 }
 
 @keyframes fade-in {
