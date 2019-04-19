@@ -1,7 +1,6 @@
 import React from 'react';
 import lodgeLogo from "../styles/images/image.png";
 
-
 export const Home = () => {
   return (
     <div id="lodge-logo">

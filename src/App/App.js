@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Home />
+        <Switch>
+        <Route path="/" component={Home}/>
+        </Switch>
         <video id="background-video"  loop autoPlay muted>
           <source src="https://videos.files.wordpress.com/J5vpit3s/video-feb-24-10-49-36-am_hd.mp4" type="video/mp4" />
           Your browser does not support the video tag.
