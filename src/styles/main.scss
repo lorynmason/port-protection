@@ -1,7 +1,8 @@
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700');
 $accentFont : 'Lobster', cursive;
+$btnFont : 'Merienda', cursive;
 
 //mixings 
 @mixin flexin {
@@ -10,5 +11,36 @@ $accentFont : 'Lobster', cursive;
   align-items: center;
 }
 
+//colors
+
+$gold : rgba(250, 214, 57, 1);
+
+//animations
+
+@keyframes fade-in-1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .85;
+  }
+}
+
+@keyframes fade-in-2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .85;
+  }
+}
+
 @import "reset";
 @import "home";
+@import "Nav";

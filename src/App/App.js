@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './styles/main.scss';
-import lodgeLogo from "./styles/images/image.png"
+import '../styles/main.scss';
+import lodgeLogo from "../styles/images/image.png";
+import { Nav } from "../Nav/Nav";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Nav />
         <div id="lodge-logo">
           <img src={lodgeLogo} alt="Port Protection Lodge Logo"/>
           <h1>A True Alaskan Adventure</h1>
