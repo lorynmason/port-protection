@@ -1,7 +1,8 @@
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700');
 $accentFont : 'Lobster', cursive;
+$btnFont : 'Merienda', cursive;
 
 //mixings 
 @mixin flexin {
@@ -10,5 +11,10 @@ $accentFont : 'Lobster', cursive;
   align-items: center;
 }
 
+//colors
+
+$gold : rgba(250, 214, 57, 1);
+
 @import "reset";
 @import "home";
+@import "Nav";

@@ -1,0 +1,26 @@
+nav {
+  position: absolute;
+  @include flexin;
+  justify-content: space-evenly;
+  top: 0;
+  width: 100%;
+  .nav-button {
+    all: unset;
+    border: 1.5px solid #30596d;
+    padding: 10px;
+    margin: 10px 0 0;
+    color: #2f647e;
+    background: rgba(207, 205, 205, 0.651);
+    width: 120px;
+    text-align: center;
+    z-index: 10;
+    font-family: $btnFont;
+    font-weight: 700;
+    &:hover {
+      background: rgba(66, 65, 65, 0.904);
+      color: white;
+      border: 1.5px solid white;
+      cursor: pointer;
+    }
+  }
+}
