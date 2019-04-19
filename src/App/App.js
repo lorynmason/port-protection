@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/main.scss';
 import lodgeLogo from "../styles/images/image.png";
 import { Nav } from "../Nav/Nav";
+import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   render() {
