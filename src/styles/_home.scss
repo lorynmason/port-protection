@@ -9,36 +9,22 @@
   position: absolute;
   @include flexin;  
   flex-direction: column;
-  opacity: .7;
   z-index: 10;
   img {
-    animation: fade-in 6s;
+    animation: fade-in-1 8s;
     height: 500px;
+    opacity: .85;
   }
   h1 {
     color: $gold;
     font-family: $accentFont;
     font-size: 5rem;
     margin-top: 10px;
-    animation: fade-in 8s;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  100% {
-    opacity: .7;
+    animation: fade-in-2 8s;
   }
 }
 
 video {
-  // width: 100vw;
-  // height: 110vh;
   position: fixed;
   top: 50%;
   left: 50%;

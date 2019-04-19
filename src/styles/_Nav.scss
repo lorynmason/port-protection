@@ -4,6 +4,7 @@ nav {
   justify-content: space-evenly;
   top: 0;
   width: 100%;
+  animation: jump-in 8s;
   .nav-button {
     all: unset;
     border: 1.5px solid #30596d;
@@ -22,5 +23,17 @@ nav {
       border: 1.5px solid white;
       cursor: pointer;
     }
+  }
+}
+
+@keyframes jump-in {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
