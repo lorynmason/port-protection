@@ -5,6 +5,7 @@ import { Home } from "../Home/Home";
 import { Lodge } from '../Lodge/Lodge';
 import { Skiff } from '../Skiff/Skiff';
 import { Other } from '../Other/Other';
+import { About } from '../About/About';
 import { Route, Switch } from 'react-router-dom';
 import boatgif from "../styles/images/PortProtectionBoat.gif";
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path="/lodging" component={Lodge}/>
           <Route path="/skiff-rentals" component={Skiff}/>
           <Route path="/other-services" component={Other}/>
+          <Route path="/about" component={About}/>
         </Switch> 
       </div>
     );
