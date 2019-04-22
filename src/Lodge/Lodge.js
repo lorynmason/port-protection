@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import apartment1 from '../styles/images/Apartment-outside.jpg'
+import apartment2 from '../styles/images/Apartment-inside-1.jpg'
+import apartment3 from '../styles/images/Apartment-inside-2.jpg'
+
 
 export const Lodge = () => {
   return (
@@ -12,9 +16,9 @@ export const Lodge = () => {
       <p>2 queen beds, private shower, microwave, toaster, coffee pot, and fridge – $175 per night</p>
       <h3>Apartment</h3>
       <div>
-        <img/>
-        <img/>
-        <img/>
+        <img src={apartment1} alt="Outside of the apartment"/>
+        <img src={apartment2} alt="Inside of the apartment"/>
+        <img src={apartment3} alt="Inside of the apartment"/>
       </div>
       <p>2 queen beds, 4 full beds, living room, full kitchen, washer and dryer, and bathroom – $575 per night</p>
       <h3>To book lodging contact us <Link to="/contact">here</Link></h3>

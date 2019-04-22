@@ -4,9 +4,14 @@ section {
   background: rgba(207, 205, 205, 0.651);
   border: 1.5px solid #30596d;
   height: 85vh;
+  overflow-x: scroll;
   text-align: center;
   font-family: $accentFont;
   color: #30596d;
+  img {
+    width: 300px;
+    margin: 15px;
+  }
   h1 {
     font-size: 5rem;
     margin: 35px auto; 
@@ -22,7 +27,7 @@ section {
     font-size: 1.5rem;
     font-family: $mainFont;
     font-weight: 500;
-    margin: 0 40px;
+    margin: 0 45px;
   }
   a {
     color: #30596d;
