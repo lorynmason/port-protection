@@ -5,6 +5,7 @@ import { Home } from "../Home/Home"
 import { Route, Switch } from 'react-router-dom'
 import boatgif from "../styles/images/PortProtectionBoat.gif";
 import { Lodge } from '../Lodge/Lodge';
+import { Skiff } from '../Skiff/Skiff'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Switch> 
           <Route exact path="/" component={Home}/>
           <Route path="/lodging" component={Lodge}/>
+          <Route path="/skiff-rentals" component={Skiff}/>
         </Switch> 
       </div>
     );
