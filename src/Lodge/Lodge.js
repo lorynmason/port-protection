@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Pages = () => {
+export const Lodge = () => {
   return (
     <section>
       <h1>POOP</h1>
