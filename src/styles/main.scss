@@ -41,6 +41,13 @@ $gold : rgba(250, 214, 57, 1);
   }
 }
 
+section {
+  width: 80%;
+  margin: 180px auto 0;
+  background: rgba(189, 189, 189, 0.61);
+  height: 85vh;
+}
+
 @import "reset";
 @import "home";
 @import "Nav";
