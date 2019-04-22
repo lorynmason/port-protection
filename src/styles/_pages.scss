@@ -1,0 +1,30 @@
+section {
+  width: 83%;
+  margin: 50px auto 0;
+  background: rgba(207, 205, 205, 0.651);
+  border: 1.5px solid #30596d;
+  height: 85vh;
+  text-align: center;
+  font-family: $accentFont;
+  color: #30596d;
+  h1 {
+    font-size: 5rem;
+    margin: 35px auto; 
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+    margin: 20px auto;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: $mainFont;
+    font-weight: 500;
+    margin: 0 40px;
+  }
+  a {
+    color: #30596d;
+  }
+}

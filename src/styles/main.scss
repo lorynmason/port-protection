@@ -1,8 +1,10 @@
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Merienda:400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700');
 $accentFont : 'Lobster', cursive;
 $btnFont : 'Merienda', cursive;
+$mainFont: 'Comfortaa', cursive;
 
 //mixings 
 @mixin flexin {
@@ -41,13 +43,7 @@ $gold : rgba(250, 214, 57, 1);
   }
 }
 
-section {
-  width: 80%;
-  margin: 180px auto 0;
-  background: rgba(189, 189, 189, 0.61);
-  height: 85vh;
-}
-
 @import "reset";
 @import "home";
 @import "Nav";
+@import "pages";
