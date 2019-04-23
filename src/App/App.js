@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
 import '../styles/main.scss';
-import lodgeLogo from "../styles/images/image.png";
 import { Nav } from "../Nav/Nav";
+import { Home } from "../Home/Home";
+import { Lodge } from '../Lodge/Lodge';
+import { Skiff } from '../Skiff/Skiff';
+import { Other } from '../Other/Other';
+import { About } from '../About/About';
+import { Route, Switch } from 'react-router-dom';
+import boatgif from "../styles/images/PortProtectionBoat.gif";
 
 class App extends Component {
   render() {
+    var back = {
+      background: `url(${boatgif})`,
+      'background-repeat': 'no-repeat',
+      'background-size': 'cover'
+    }
     return (
-      <div className="App">
+      <div style={ back } className="App" >
         <Nav />
-        <div id="lodge-logo">
-          <img src={lodgeLogo} alt="Port Protection Lodge Logo"/>
-          <h1>A True Alaskan Adventure</h1>
-        </div>
-        <video id="background-video"  loop autoPlay muted>
-          <source src="https://videos.files.wordpress.com/J5vpit3s/video-feb-24-10-49-36-am_hd.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <Switch> 
+          <Route exact path="/" component={Home}/>
+          <Route path="/lodging" component={Lodge}/>
+          <Route path="/skiff-rentals" component={Skiff}/>
+          <Route path="/other-services" component={Other}/>
+          <Route path="/about" component={About}/>
+        </Switch> 
       </div>
     );
   }

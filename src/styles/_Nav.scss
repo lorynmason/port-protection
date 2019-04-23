@@ -5,6 +5,9 @@ nav {
   top: 0;
   width: 100%;
   animation: jump-in 8s;
+  a {
+    text-decoration: none;
+  }
   .nav-button {
     all: unset;
     border: 1.5px solid #30596d;
@@ -22,6 +25,13 @@ nav {
       color: white;
       border: 1.5px solid white;
       cursor: pointer;
+    }
+  }
+  .active {
+    .nav-button {
+      background: rgba(66, 65, 65, 0.904);
+      color: white;
+      border: 1.5px solid white;
     }
   }
 }
