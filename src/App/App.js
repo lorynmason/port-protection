@@ -9,7 +9,6 @@ import { About } from '../About/About';
 import { Route, Switch } from 'react-router-dom';
 import boatgif from "../styles/images/PortProtectionBoat.gif";
 
-
 class App extends Component {
   render() {
     var back = {

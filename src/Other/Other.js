@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export const Other = () => {
   return (
@@ -12,7 +11,7 @@ export const Other = () => {
       <p>HOURS: 9:00am-5:00pm Tuesday-Friday, 9:00am-1:00pm Saturday </p>
       <p>SUMMER HOURS: 9:00am-5:00pm Monday-Friday, 9:00am-1:00pm Saturday</p>
       <p>FUEL TYPES: Diesel Number One, Diesel Number Two, and Gasoline</p>
-      <h3>Got questions? Contact us <Link to="/contact">here</Link></h3>
+      <h3>Got questions? Contact us <a href="https://portprotectionlodge.typeform.com/to/EgWbs7">here</a></h3>
     </section>
   )
 }

@@ -13,9 +13,9 @@ export const Nav = () => {
       <NavLink to="/other-services">
         <button className="nav-button">Other Services</button>
       </NavLink>
-      <NavLink to="/contact">
+      <a href="https://portprotectionlodge.typeform.com/to/EgWbs7">
         <button className="nav-button">Contact Us</button>
-      </NavLink>
+      </a>
       <NavLink to="/about">
         <button className="nav-button">About</button>
       </NavLink>
