@@ -20,7 +20,7 @@ export const Lodge = () => {
         <img src={apartment3} alt="Inside of the apartment"/>
       </div>
       <p>2 queen beds, 4 full beds, living room, full kitchen, washer and dryer, and bathroom – $575 per night</p>
-      <h3>To book lodging contact us <a href="https://portprotectionlodge.typeform.com/to/EgWbs7">here</a></h3>
+      <h3>To book lodging contact us <a href="https://portprotectionlodge.typeform.com/to/EgWbs7" target="_blank">here</a></h3>
     </section>
   )
 }

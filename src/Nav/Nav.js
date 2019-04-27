@@ -18,7 +18,7 @@ export const Nav = () => {
       <NavLink to="/about">
         <button className="nav-button">About</button>
       </NavLink>
-      <a href="https://portprotectionlodge.typeform.com/to/EgWbs7">
+      <a href="https://portprotectionlodge.typeform.com/to/EgWbs7" target="_blank">
         <button className="nav-button">Contact Us</button>
       </a>
     </nav>
