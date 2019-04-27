@@ -1,10 +1,12 @@
 nav {
-  position: absolute;
   @include flexin;
   justify-content: space-evenly;
-  top: 0;
   width: 100%;
   animation: jump-in 8s;
+  // background: #2f3538bb;
+  background: #2f647e96;
+  // background: $backdrop;
+  height: 150px;
   a {
     text-decoration: none;
   }
@@ -12,14 +14,14 @@ nav {
     all: unset;
     border: 1.5px solid #30596d;
     padding: 10px;
-    margin: 10px 0 0;
-    color: #2f647e;
-    background: rgba(207, 205, 205, 0.651);
+    margin: 80px 0 0;
+    color: $accentcolor;
+    background: rgba(207, 205, 205, 0.808);
     width: 120px;
     text-align: center;
-    z-index: 10;
     font-family: $btnFont;
     font-weight: 700;
+    box-shadow: 4px 4px 4px #262627bb;
     &:hover {
       background: rgba(66, 65, 65, 0.904);
       color: white;
@@ -33,6 +35,10 @@ nav {
       color: white;
       border: 1.5px solid white;
     }
+  }
+  #small-logo {
+    height: 130px;
+    filter: drop-shadow(6px 6px 6px #262627bb);
   }
 }
 

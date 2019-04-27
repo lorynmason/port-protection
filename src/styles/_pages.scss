@@ -1,13 +1,13 @@
 section {
   width: 83%;
-  margin: 50px auto 0;
-  background: rgba(207, 205, 205, 0.651);
-  border: 1.5px solid #30596d;
-  height: 85vh;
+  margin: 50px auto;
+  background: $backdrop;
+  border: 1.5px solid $accentcolor;
+  min-height: 670px;
   overflow-x: scroll;
   text-align: center;
   font-family: $accentFont;
-  color: #30596d;
+  color: $accentcolor;
   img {
     width: 300px;
     margin: 15px;
@@ -30,7 +30,7 @@ section {
     margin: 0 45px;
   }
   a {
-    color: #30596d;
+    color: $accentcolor;
   }
 }
 
