@@ -7,10 +7,12 @@
 #lodge-logo {
   @include flexin;  
   flex-direction: column;
+  margin-top: 20px;
   img {
     animation: fade-in-1 8s;
     height: 500px;
     opacity: .85;
+    filter: drop-shadow(6px 6px 6px #262627bb);
   }
   h1 {
     color: $gold;
